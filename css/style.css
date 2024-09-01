@@ -1,0 +1,535 @@
+/* All common css start */
+*{
+  margin: 0;
+  padding: 0;
+}
+/* All common css end */
+
+
+
+/* main-structure */
+
+.main-structure{
+  height: 800px;
+  width: 800px;
+  margin: 0 auto;
+  background: gray;
+  position: relative;
+}
+
+/* main 1 */
+
+.main1{
+  height: 100px;
+  width: 100%;
+  margin: 0 0 0 0;
+  background: black;
+  position: relative;
+}
+
+/* box no.1 */
+
+ .one1{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 0;
+}
+
+.clip1{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(100% 0, 57% 0, 100% 40%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip2{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(22% 0, 60% 0, 100% 41%, 100% 82%);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip3{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, 27% 0, 100% 77%, 100% 100%, 73% 100%, 0 24%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip4{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 53%, 45% 100%, 73% 100%, 0 24%);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip5{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 53%, 45% 100%, 0 100%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+
+/* box no.2 */
+
+.one2{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 100px;
+}
+.clip01{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 38%, 0 0, 0 0, 40% 0);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip02{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 39%, 0 74%, 82% 0, 40% 0);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip03{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 76%, 0 100%, 27% 100%, 100% 24%, 100% 0, 77% 0);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 2;
+}
+.clip04{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(27% 100%, 57% 100%, 100% 52%, 100% 19%);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 1;
+}
+.clip05{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(100% 100%, 57% 100%, 100% 52%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+
+/* box no.3 */
+
+.one3{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 200px;
+}
+.clip1{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(100% 0, 57% 0, 100% 40%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip2{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(22% 0, 60% 0, 100% 41%, 100% 82%);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip3{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, 27% 0, 100% 77%, 100% 100%, 73% 100%, 0 24%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip4{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 53%, 45% 100%, 73% 100%, 0 24%);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip5{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 53%, 45% 100%, 0 100%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+
+/* box no.4 */
+
+.one4{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: goldenrod;
+  top: 0;
+  left: 300px
+}
+.clip01{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 38%, 0 0, 0 0, 40% 0);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip02{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 39%, 0 74%, 82% 0, 40% 0);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip03{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 76%, 0 100%, 27% 100%, 100% 24%, 100% 0, 77% 0);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 2;
+}
+.clip04{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(27% 100%, 57% 100%, 100% 52%, 100% 19%);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 1;
+}
+.clip05{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(100% 100%, 57% 100%, 100% 52%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+
+/* box no.5 */
+
+.one5{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 400px
+}
+.clip1{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(100% 0, 57% 0, 100% 40%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip2{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(22% 0, 60% 0, 100% 41%, 100% 82%);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip3{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, 27% 0, 100% 77%, 100% 100%, 73% 100%, 0 24%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip4{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 53%, 45% 100%, 73% 100%, 0 24%);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip5{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 53%, 45% 100%, 0 100%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+
+/* box no.6 */
+
+.one6{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 500px
+}
+.clip01{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 38%, 0 0, 0 0, 40% 0);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip02{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 39%, 0 74%, 82% 0, 40% 0);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip03{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 76%, 0 100%, 27% 100%, 100% 24%, 100% 0, 77% 0);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 2;
+}
+.clip04{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(27% 100%, 57% 100%, 100% 52%, 100% 19%);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 1;
+}
+.clip05{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(100% 100%, 57% 100%, 100% 52%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+
+/* box no.7 */
+
+.one7{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 600px
+}
+.clip1{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(100% 0, 57% 0, 100% 40%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip2{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(22% 0, 60% 0, 100% 41%, 100% 82%);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip3{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, 27% 0, 100% 77%, 100% 100%, 73% 100%, 0 24%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip4{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 53%, 45% 100%, 73% 100%, 0 24%);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip5{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 53%, 45% 100%, 0 100%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+
+/* box no.8 */
+
+.one8{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 700px
+}
+.clip01{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 38%, 0 0, 0 0, 40% 0);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip02{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 39%, 0 74%, 82% 0, 40% 0);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 0;
+}
+.clip03{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 76%, 0 100%, 27% 100%, 100% 24%, 100% 0, 77% 0);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 2;
+}
+.clip04{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(27% 100%, 57% 100%, 100% 52%, 100% 19%);
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 1;
+}
+.clip05{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(100% 100%, 57% 100%, 100% 52%);
+  background-color: darkgoldenrod;
+  position: absolute;
+  z-index: 0;
+}
+
+/* main2 */
+
+.main2{
+  height: 100px;
+  width: 100%;
+  margin: 0 0 0 0;
+  background: black;
+  position: relative;
+}
+
+/* box no.01 */
+
+.one01{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 0;
+}
+
+/* box no.02 */
+
+.one02{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 100px;
+}
+
+/* box no.03 */
+
+.one03{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 200px;
+}
+
+/* box no.04 */
+
+.one04{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 300px;
+}
+
+/* box no.05 */
+
+.one05{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 400px;
+}
+
+/* box no.06 */
+
+.one06{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 500px;
+}
+
+/* box no.07 */
+
+.one07{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 600px;
+}
+
+/* box no.08 */
+
+.one08{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background: burlywood;
+  top: 0;
+  left: 700px;
+}
